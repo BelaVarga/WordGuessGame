@@ -18,6 +18,13 @@ def main():
     
         
         """
+    
+    bye="""
+        
+        I hope it was good!
+        
+        ByeBye!"""
+    
     print(welcome)
     input("Press ENTER if you want to start...")
     
@@ -27,14 +34,11 @@ def main():
         guess(w)
         cont=get_answer("Do you want to play again? (y/n)")
         if not cont:
+            print(bye)
             sys.exit()
     
-    bye="""
-    
-    I hope it was good!
-    
-    ByeBye!"""
-    print(bye)
+
+
     
 
 if __name__ == '__main__':
